@@ -4,6 +4,8 @@ import { AppBar } from '@material-ui/core';
 export const HeaderAppBar = styled(AppBar)`
     background-color: ${({theme}) => theme.palette.background.paper};
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
    
     
     ${({theme}) => theme.breakpoints.up('md')}{
@@ -28,6 +30,6 @@ export const HeaderLogo = styled('img')`
     }
 `;
 
-export const Typography = styled('div')`
-    
+export const Link = styled('div')`
+    background-color: red;
 `;

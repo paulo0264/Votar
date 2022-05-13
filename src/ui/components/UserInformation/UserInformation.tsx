@@ -7,6 +7,7 @@ import CardContent from "@material-ui/core/CardContent";
 //import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import Link from 'next/link';
 
 interface UserInformationProps {
   button: string;
@@ -35,7 +36,7 @@ const UserInformation: React.FC<UserInformationProps> = (props) => {
         </CardActionArea>
         <CardActions>
           <Button variant="outlined" color="primary">
-            {props.button}
+          <Link href="/Votar">{props.button}</Link>
           </Button>
         </CardActions>
       </Card>

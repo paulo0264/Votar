@@ -6,4 +6,4 @@ export const SectionListContainer =  styled('div')`
     text-align: right;
     padding: ${({theme}) => theme.spacing(2)} 0;
     font-size: 12px;
-`
+`;
